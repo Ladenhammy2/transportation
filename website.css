@@ -1,0 +1,471 @@
+* {margin:0; padding: 5px;}
+/*-----------------------------------WEBSITE.HTML CSS CODES STYLE-----------------------------*/
+.indexbody{
+    width: fit-content;
+    padding-left: 350px;
+    padding-right: 350px;
+}
+.mainmenu{
+    background-color: aqua;
+    font-size: 18px;
+    width: auto;
+    padding-top: 0px;
+}
+.mainmenu li{
+    display: inline-flex;
+    text-decoration: none;
+    padding: 5px;
+}
+header{
+    display: inline-flex;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    flex-direction: row;
+    justify-content: space-evenly;
+    width: auto;
+}
+header p1{
+    display: flex;
+    padding: 20px;
+    padding-left: 100px;
+    align-items: center;
+}
+header p2{
+    display: flex;
+    padding: 20px;
+    padding-left: 100px;
+    align-items: center;
+}
+header img{
+    border: none;
+    padding: 0px;
+}
+.socialmedia{
+    display: flex;
+    padding: 30px;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    cursor: auto;
+}
+.submenu {
+    background-color: cadetblue;
+    font-size: 15px;
+}
+.submenu ul{
+    list-style-type: disc;
+}
+.submenu li{
+    position: relative;
+    display: inline-block;
+    padding: 5px;
+    color: dark;
+    margin-bottom: 0px;
+    text-decoration: none;
+    width: 176px;
+    text-align: webkit-match-parent;
+}
+.submenu ul li a{
+    text-decoration: none;
+}
+.submenu li ol{
+    position: absolute;
+    display: none;
+}
+.newsitems{
+    display: inline-flex;
+}
+.newsitems p{
+    text-align: center;
+}
+/*----------------------------------DROPDOWN CSS CODES STYLE--------------------------------*/
+.dropdown{
+    display: inline-block;
+}
+.dropbtn{
+    background-color:cadetblue;
+    color: black;
+    padding: 10px;
+    position: relative;
+}
+.drop1, .drop2, .drop3, .drop4, .drop5{
+    background-color: cornflowerblue;
+    text-align: left;
+}
+.dropdown1, .dropdown2, .dropdown3, .dropdown4, .dropdown5{
+    position: relative;
+    display: inline-block;
+}
+.dropbtn1, .dropbtn2, .dropbtn3, .dropbtn4, .dropbtn5{
+    background-color: cadetblue;
+    color: black;
+    padding: 0px;
+    position: relative;
+}
+.dropdown-content ol li{
+    display: block;
+    color: black;
+    padding: 0px 0px;
+    text-decoration: none;
+    position: relative;
+}
+.dropdown-content1 ol li, .dropdown-content2 ol li, .dropdown-content3 ol li, .dropdown-content4 ol li, .dropdown-content5 ol li{
+    display: block;
+    color: black;
+    padding: 0px 10px;
+    text-decoration: none;
+    position: relative;
+    background-origin: padding-box;
+}
+.dropdown-content{
+    display: none;
+    position: absolute;
+    box-shadow: 0px 8px 16px 0px rgba(red, green, blue, alpha);
+    min-width: 160px;
+    z-index: 1;
+    padding: 0px;
+}
+.dropdown-content1, .dropdown-content2, .dropdown-content3, .dropdown-content4, .dropdown-content5{
+    display: none;
+    position: relative;
+    box-shadow: 0px 8px 16px 0px rgba(red, green, blue, alpha);
+    min-width: 160px;
+    z-index: 1;
+    padding: 0px;
+}
+.dropdown-content a:hover{
+    background-color: rgb(13, 15, 98);
+}
+.dropdown:hover .dropdown-content{
+    display: block;
+    background-color: #f2f2f2;
+}
+.dropdown1:hover .dropdown-content1, .dropdown2:hover .dropdown-content2, .dropdown3:hover .dropdown-content3, .dropdown4:hover .dropdown-content4, .dropdown5:hover .dropdown-content5{
+    display: block;
+}
+.dropdown:hover .dropbtn{
+    background-color:rgb(22, 105, 149);
+}
+.dropdown1:hover .dropbtn1{
+    background-color:rgb(22, 105, 149);
+}
+.dropdown2:hover .dropbtn2{
+    background-color:rgb(22, 105, 149);
+}
+.dropdown3:hover .dropbtn3{
+    background-color:rgb(22, 105, 149);
+}
+.dropdown4:hover .dropbtn4{
+    background-color:rgb(22, 105, 149);
+}
+.dropdown5:hover .dropbtn5{
+    background-color:rgb(22, 105, 149);
+}
+.content{
+    background-color:darkgray;
+    text-align: center;
+}
+.cont1{
+    font-size: x-large;
+}
+footer{
+    padding-top: 40px;
+}
+.footer1{
+    background-color: rgb(13, 77, 140);
+    color: white;
+    font-size: small;
+    padding-top: 30px;
+    display: inline-flex;
+    width: 1185px;
+}
+.footer2{
+    background-color: rgb(4, 31, 56);
+    color: white;
+    font-size: small;
+}
+.footer2 a{
+    color: white;
+}
+.footer1 p{
+    font-size: x-large;
+    font-family: 'Times New Roman', Times, serif;
+}
+.footer1 ul li{
+    padding-left: 40px;
+}
+/*-------------------------ARTICLES CSS STYLE CODES-----------------------*/
+.articles{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    display: inline-block;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    flex-direction: row;
+    justify-content: space-evenly;
+    width: auto;
+}
+.undergrad1{
+    background-color: white;
+}
+.undergrad2{
+    color: blue;
+    font-weight: bold;
+}
+.postgrad1{
+    background-color: white;
+}
+.postgrad2{
+    color: blue;
+    font-weight: bold;
+}
+.apply{
+    background-color: white;
+}
+.apply1{
+    color: blue;
+    font-weight: bold;
+}
+.inter{
+    background-color: white;
+}
+.inter1{
+    color: blue;
+    font-weight: bold;
+}
+.articles img{
+    width: 350px;
+    height: 200px;
+}
+.undergrad1, .postgrad1, .apply, .inter{
+    width: 450px;
+    height: 150px;
+    padding: 0px;
+}
+/*--------------------PROGRAMMES CSS CODE STYLE-----------------*/
+/*------------For the program table.----------------*/
+.p1{
+    text-align: center;
+    display: inline-block;
+    display: block;
+    color: blue;
+    background-color: brown;
+    font-size: larger;
+    padding: 0px;
+}
+.p2{
+    text-align: center;
+    display: inline-block;
+    display: block;
+    color: blue;
+    background-color: chartreuse;
+    font-size: larger;
+    padding: 0px;
+}  
+.table{
+    padding: 40px;
+    padding-top: 10px;
+}
+/*-----------------------------Student affairs CSS style codes---------------------------*/
+.affairs{
+    background-color: antiquewhite;
+    padding-top: 50px;
+    padding-right: 20px;
+}
+.affairs2 ul li{
+    padding-left: 30px;
+    background-size: cover;
+}
+/*---------------------------------Undergraduate CSS style codes---------------------------------*/
+.undergradsubmenu{
+    background-color:rgb(77, 55, 55);
+    color: white;
+    padding: 20px;
+}
+.socialmedia1{
+        display: flex;
+        padding: 30px;
+        align-items: center;
+        justify-content: center;
+        flex-direction: row;
+        cursor: auto;
+    }
+.undergradsubmenu p{
+    font-size:x-large;
+}
+.undergradsubmenu a{
+    text-decoration: none;
+    color: white;
+}
+.undergradbody{
+    padding-top: 100px;
+    background-color: antiquewhite;
+}
+.undergradbody p0{
+    font-weight: bold;
+}
+.undergradbody p1{
+    color: red;
+}
+/*--------------------------------Posgraduate CSS Code style----------------------------------*/
+.postgradsubmenu{
+    background-color: rgb(77, 55, 55);
+    padding: 20px;
+    color:white;
+}
+.postgradsubmenu p{
+    font-size: x-large;
+}
+.postgradsubmenu a{
+    text-decoration: none;
+    color: white;
+}
+.postgradbody{
+    padding-top: 10px;
+    background-color: antiquewhite;
+}
+/*--------------------------------------How to aplly Css code-------------------------------------*/
+.howtoapply{
+    background-color:rgb(77, 55, 55);
+    color: white;
+    padding: 20px;
+}
+.howtoapply a{
+    color: white;
+    text-decoration: none;
+}
+.howtoapply p{
+    font-size: x-large;
+}
+.howtoapply1{
+    padding-top: 10px;
+    background-color: antiquewhite;
+}
+/*---------------------------------APPLICATION PAGE CSS CODES--------------------------------*/
+.application1{
+    background-color: antiquewhite;
+}
+.application1 p1{
+    font-size: 40px;
+}
+.application1 p2{
+    font-size: 20px;
+}
+.application1 p3{
+    font-size: 15px;
+}
+.reg{
+    background-color: orange;
+    text-align: center;
+    color: white;
+}
+.log{
+    background-color: blueviolet;
+    text-align: center;
+    color: white;
+}
+/*----------------------REGISTER CSSS CODE STYLE--------------------*/
+.regster{
+    background-color: lightseagreen;
+}
+/*----------------------NEWS PAGE CSS CODE STYLE----------------*/
+.news1, .news2, .news3{
+    display: inline-flex;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    flex-direction: row;
+    justify-content: space-evenly;
+    width: fit-content;
+    padding-left: 48px;
+}
+.news1, .news2, .news3{
+    text-align: center;
+} 
+/*----------------------SLIDESHOW CSS CODE STYLE---------------------*/
+*{
+    box-sizing: border-box;
+}
+.slideshow-container{
+    max-width:fit-content;
+    position: relative;
+    margin: auto;
+}
+/*Hide the images by default*/
+.mySlides{
+    display:none;
+}
+/*Next and Previous Buttons*/
+.prev, .next{
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    width: auto;
+    color:black;
+    margin-top: -22px;
+    font-weight: bold;
+    font-size: 18px;
+    transition: 0.6s ease ;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
+}
+.next{
+    right: 0;
+    border-radius: 3px 0 0 3px;
+}
+/*On hover on the prev and next button*/
+.prev:hover,.next:hover{
+    background-color: rgba(185, 13, 13, 0.8);
+}
+/*Caption Text*/
+.text{
+    color: #f2f2f2;
+    font-size: 15px;
+    padding: 8px 12px;
+    position: absolute;
+    bottom: 8px;
+    width: 100%;
+    text-align: center;
+}
+/*Number text (1/3 etc)*/
+.numbertext {
+    color: #f2f2f2;
+    font-size: 12px;
+    padding: 8px 12px;
+    position: absolute;
+    top: 0;
+}
+/*The dots/bullets/indicators*/
+.dot{
+    cursor: pointer;
+    height: 15px;
+    width: 15px;
+    margin: 0 2px;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: inline-block;
+    transition: background-color 0.6s ease;
+}
+.active, .dot:hover{
+    background-color: #717171;
+}
+/*Fading Animation*/
+.fade{
+    animation-name: fade;
+    animation-duration: 1.5seconds;
+}
+@keyframes fade{
+    from {opacity: .4;}
+    to {opacity: 1;}
+}
+/*-----------------------------GALLERY WILLY CSS CODE STYLE------------------------------------*/
+.gallery1, .gallery2, .gallery3{
+    display: inline-flex;
+    text-align: center;
+}
+.gallery1{
+    padding-right: 60px;
+}
+/*---------------------------------LAUNCH WILLY CSS CODE GALLERY---------------------*/
+.willytable img{
+    width: 200px;
+    height: 100px;
+}
